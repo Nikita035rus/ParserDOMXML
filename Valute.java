@@ -6,13 +6,6 @@ public class Money {
         private String name;
         private double value;
 
-        public Money(){}
-        public Money(Designation designation, int nominal, String name, double value) {
-                this.designation = designation;
-                this.nominal = nominal;
-                this.name = name;
-                this.value = value;
-        }
 
         public Designation getDesignation() {
                 return designation;
