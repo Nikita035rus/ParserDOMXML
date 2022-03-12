@@ -1,6 +1,6 @@
 package xml_parser;
 
-public enum Designation {
+public enum CodeValute {
     AUD, AZN, GBP, AMD, BYN, BGN, BRL, HUF,
     HKD, DKK, USD, EUR, INR, KZT, CAD, KGS,
     CNY, MDL, NOK, PLN, RON, XDR, SGD, TJS,

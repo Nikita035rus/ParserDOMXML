@@ -1,17 +1,17 @@
 package xml_parser;
 
-public class Money {
-        private Designation designation;
+public class Valute {
+        private CodeValute designation;
         private int nominal;
         private String name;
         private double value;
 
 
-        public Designation getDesignation() {
+        public CodeValute getDesignation() {
                 return designation;
         }
 
-        public void setDesignation(Designation designation) {
+        public void setDesignation(CodeValute designation) {
                 this.designation = designation;
         }
 
